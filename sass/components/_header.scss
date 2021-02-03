@@ -1,0 +1,15 @@
+.header {
+  display: block;
+  position: relative;
+  min-height: 80px;
+}
+.header-container {
+  @extend %center;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*nav*/
+
+/*contacts*/

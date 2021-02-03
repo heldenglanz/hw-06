@@ -1,0 +1,23 @@
+.contacts {
+  @extend %center;
+}
+.header .mail,
+.header .phone-number {
+  margin-right: 30px;
+  color: $text-color;
+}
+.icon-mail,
+.icon-phone {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+
+  &:hover,
+  &:focus {
+    transition-property: fill;
+    @extend %transition;
+  }
+}
+.border {
+  border-bottom: 1px solid #ececec;
+}
