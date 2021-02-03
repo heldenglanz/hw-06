@@ -5,10 +5,7 @@
         "../sass/main.scss",
         "../sass/_variables.scss",
         "../sass/base/_normalise.scss",
-        "../sass/utils/_placeholders.scss",
-        "../sass/components/_header.scss",
-        "../sass/components/_main-title.scss",
-        "../sass/components/_hero.scss"
+        "../sass/utils/_placeholders.scss"
     ],
     "names": [],
     "file": "main.css"
