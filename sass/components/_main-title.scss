@@ -1,0 +1,17 @@
+.main-title {
+  margin: 24px 93px 26px 0px;
+  font-family: $secondaryFont, oleo-script;
+  font-weight: 700;
+  line-height: 1.19;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: $accentcolor;
+  text-decoration: none;
+
+  .header & {
+    margin-right: 93px;
+  }
+}
+.studio-word {
+  color: black;
+}
