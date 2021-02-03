@@ -4,7 +4,9 @@
   min-height: 80px;
 }
 .header-container {
-  @extend %center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
