@@ -1,0 +1,80 @@
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+$accentcolor: #2196f3;
+.navigation-container {
+  @extend %center;
+  min-width: 294px;
+  padding: 32px, 0px, 32px, 0px;
+}
+.navigation-set {
+  @extend %center;
+  margin-right: 305px;
+  list-style: none; 
+}
+.navigation-studio {
+  margin-right: 40px;
+  display: inline-block;
+  position: relative;
+  color: $accentcolor;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+  text-decoration: none;
+  color: #2196F3;
+  cursor: pointer;
+  transition-property: color, pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+ 
+}
+.navigation-portfolio {
+  margin-right: 40px;
+  display: inline-block;
+  position: relative;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+  text-decoration: none;
+  color: #2196F3;
+  cursor: pointer;
+  transition-property: color, pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
+}
+.navigation-contacts {
+  display: inline-block;
+  position: relative;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  &:hover,
+  &:focus {
+  text-decoration: none;
+  color: #2196F3;
+  cursor: pointer;
+  transition-property: color, pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

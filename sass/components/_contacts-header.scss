@@ -1,0 +1,36 @@
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts {
+  @extend %center;
+}
+.mail,
+.phone-number {
+  margin-right: 30px;
+  color: #757575;
+  &:hover,
+  &:focus {
+  text-decoration: none;
+  color: #2196F3;
+  cursor: pointer;
+  transition-property: color, pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+}
+.icon-mail,
+.icon-phone {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  &:hover,
+  &:focus {
+  text-decoration: none;
+  cursor: pointer;
+  fill: #2196F3;
+  transition-property: fill, pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
