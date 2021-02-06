@@ -800,6 +800,16 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mailform {
+  position: relative;
+}
+
+.maillabel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .backdrop {
   position: fixed;
   left: 0;
