@@ -5,7 +5,13 @@
   margin-top: 94px;
 }
 .clients-title {
+  margin: auto;
   margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .companies-list {
   display: flex;
@@ -18,13 +24,46 @@
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  &:nth-child(1) {
+    fill: #afb1b8;
+  }
+}
+
+.company-icon1 {
+  width: 44.27px;
+  height: 49.23px;
+}
+.company-icon2 {
+  width: 40px;
+  height: 52px;
+}
+.company-icon3 {
+  width: 41px;
+  height: 42.6px;
+}
+.company-icon4 {
+  width: 79.46px;
+  height: 42.02px;
+}
+.company-icon5 {
+  width: 59px;
+  height: 47px;
+}
+.company-icon6 {
+  width: 88.48px;
+  height: 45.44px;
 }
 .company-link {
+  position: relative;
   display: inline-block;
   &:hover .company,
-  &:focus .company {
-    border-color: #2196f3;
+  &:hover .company:nth-child(1),
+  &:focus .company,
+  &:focus .company:nth-child(1) {
+    border-color: $accentcolor;
     transition-property: border-color;
+    fill: $accentcolor;
+    transition-property: fill;
     @extend %transition;
   }
 }
