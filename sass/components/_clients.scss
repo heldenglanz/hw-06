@@ -1,0 +1,30 @@
+.companies {
+  width: 1170px;
+  margin: auto;
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+.clients-title {
+  margin-bottom: 50px;
+}
+.companies-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company {
+  @extend %center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.company-link {
+  display: inline-block;
+  &:hover .company,
+  &:focus .company {
+    border-color: #2196f3;
+    transition-property: border-color;
+    @extend %transition;
+  }
+}

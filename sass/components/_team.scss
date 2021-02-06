@@ -1,0 +1,80 @@
+.team-container {
+  @extend %center;
+  flex-direction: column;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+.team-set {
+  display: flex;
+}
+.team-imagine {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-imagine:not(:last-child) {
+  margin-right: 30px;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.name-title-igor,
+.name-title-olga,
+.name-title-nikolay,
+.name-title-mikhail {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.span-title-one,
+.span-title-two,
+.span-title-three,
+.span-title-four {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $textcolor;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 30px;
+}
+.social-link {
+  @extend %center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: #fff;
+  transition-property: fill;
+  @extend %transition;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+  transition-property: background-color;
+  @extend %transition;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+}

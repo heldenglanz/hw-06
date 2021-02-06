@@ -1,7 +1,12 @@
-@import "./variables";
+@import "./utils/variables";
 @import "./base/normalise";
 @import "./utils/placeholders";
 @import "./components/header";
 @import "./components/contacts-header";
 @import "./components/main-title";
 @import "./components/nav-header";
+@import "./components/firstdiv";
+@import "./components/features";
+@import "./components/photoface";
+@import "./components/team";
+@import "./components/clients";
